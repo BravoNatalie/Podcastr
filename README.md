@@ -41,8 +41,7 @@ This project was developed during **[Next Level Week](https://nextlevelweek.com/
 Check out how it looks:
 
 <p align="center">
- <!-- <img alt="Web App"   src="link" > -->
-  <strong>UNDER CONSTRUCTION<strong>
+ <img alt="Web App"   src="https://res.cloudinary.com/nataliebravo/image/upload/v1619287344/Podcastr_github_assets/working_dfujwp.gif" >
 <p />
 
 <a id='technologies'/>
@@ -56,6 +55,7 @@ This project was developed with the following technologies:
   - [React](https://pt-br.reactjs.org/)
   - [Typescript](https://www.typescriptlang.org/)
   - [Context API](https://reactjs.org/docs/context.html)
+  - [Axios](https://github.com/axios/axios)
   - [Sass](https://sass-lang.com/)
 
 <a id='how-to-use'/>
