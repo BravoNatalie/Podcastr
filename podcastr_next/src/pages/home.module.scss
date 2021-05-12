@@ -73,7 +73,7 @@
               width: 4px;
               height: 4px;
               border-radius: 2px;
-              background: #DDD;
+              background: var(--dot);
               position: absolute;
               left: 0;
               top: 50%;
@@ -169,6 +169,17 @@
           filter: brightness(0.95);
         }
       }
+    }
+  }
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  .latestEpisodes ul li button{
+    background: var(--gray-100);
+    border: 1px solid var(--gray-50);
+
+    &:hover {
+      filter: brightness(0.9);
     }
   }
 }

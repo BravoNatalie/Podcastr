@@ -17,6 +17,14 @@
 
   span {
     margin-left: auto;
+    margin-right: 1.5rem;
     text-transform: capitalize;
+  }
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  .headerContainer {
+    background: var(--gray-50);
+    border-bottom: none;
   }
 }

@@ -135,3 +135,23 @@
     }
   }
 }
+
+@media screen and (prefers-color-scheme: dark) {
+  .playerContainer, .currentEpisode {
+    strong, span {
+      color: var(--gray-800);
+    }
+  }
+
+  .buttons button{
+    &:hover:not(:disabled) {
+      filter: brightness(0.4);
+    }
+
+    &.playButton {
+      &:hover:not(:disabled) {
+        filter: brightness(0.8);
+      }
+    }
+  }
+}
